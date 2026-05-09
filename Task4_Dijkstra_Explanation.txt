@@ -1,0 +1,26 @@
+TASK 4 – Dijkstra Shortest Path Algorithm
+
+Find the shortest path from Edinburgh to Dundee.
+
+Road Distances:
+
+Edinburgh → Perth = 100 km
+Edinburgh → Glasgow = 70 km
+Glasgow → Perth = 80 km
+Perth → Dundee = 40 km
+
+Possible Routes:
+
+1. Edinburgh → Perth → Dundee
+Total distance:
+100 + 40 = 140 km
+
+2. Edinburgh → Glasgow → Perth → Dundee
+Total distance:
+70 + 80 + 40 = 190 km
+
+Shortest Path:
+
+Edinburgh → Perth → Dundee
+
+Total Distance = 140 km

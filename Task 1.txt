@@ -1,0 +1,34 @@
+TASK 1 – Depth First Search (DFS)
+
+Graph Adjacency List:
+
+A: C B D
+B: A C E G
+C: A B D
+D: C A
+E: G F B
+F: G E
+G: F B
+
+DFS Traversal starting from A:
+
+1. Visit A
+2. Go to C
+3. Visit C
+4. Go to B
+5. Visit B
+6. Go to E
+7. Visit E
+8. Go to G
+9. Visit G
+10. Go to F
+11. Visit F
+12. Backtrack to G
+13. Backtrack to E
+14. Backtrack to B
+15. Backtrack to C
+16. Go to D
+17. Visit D
+
+DFS Order:
+A → C → B → E → G → F → D

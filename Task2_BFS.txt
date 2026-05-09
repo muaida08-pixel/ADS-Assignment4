@@ -1,0 +1,47 @@
+TASK 2 – Breadth First Search (BFS)
+
+Graph Adjacency List:
+
+A: C B D
+B: A C E G
+C: A B D
+D: C A
+E: G F B
+F: G E
+G: F B
+
+BFS Traversal starting from A:
+
+Queue = [A]
+
+Visit A
+Add C, B, D
+
+Queue = [C, B, D]
+
+Visit C
+
+Queue = [B, D]
+
+Visit B
+Add E, G
+
+Queue = [D, E, G]
+
+Visit D
+
+Queue = [E, G]
+
+Visit E
+Add F
+
+Queue = [G, F]
+
+Visit G
+
+Queue = [F]
+
+Visit F
+
+BFS Order:
+A → C → B → D → E → G → F
